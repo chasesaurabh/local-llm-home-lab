@@ -1,0 +1,11 @@
+{
+  "model": "qwen3-0.6b-q8",
+  "messages": [{
+    "role": "user",
+    "content": "Use only this note. Note: The lab maintenance window is Sunday at 09:00. Backups are stored in the lab-backups folder. Question: Which folder stores the backups? Answer briefly. If the note does not state the answer, say: Not specified."
+  }],
+  "temperature": 0,
+  "seed": 7,
+  "max_tokens": 96,
+  "stream": false
+}

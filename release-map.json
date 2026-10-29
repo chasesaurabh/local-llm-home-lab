@@ -1,0 +1,105 @@
+{
+  "candidate_id": "companion-public-v1.0.0",
+  "status": "book-matched-code-release",
+  "book_project_id": "local-llm",
+  "book_title": "The Local LLM Home Lab",
+  "internal_revision": "refresh-2026-10",
+  "retail_edition": "edition-02",
+  "book_release_id": null,
+  "public_repository_url": "https://github.com/chasesaurabh/local-llm-home-lab",
+  "public_commit": null,
+  "public_tag": "book-edition-02-v1.0.0",
+  "author_selected_license": "MIT",
+  "verified_public_book_url": null,
+  "post_publication_backlink_required": true,
+  "chapter_mapping": {
+    "25": "labs/llamacpp",
+    "10": "labs/rag",
+    "28": "labs/coding",
+    "29": "labs/vision",
+    "30": "labs/agent",
+    "24": "labs/shared",
+    "18-20": "labs/operations"
+  },
+  "limitations": [
+    "Book remains pre-publication; no retailer release implied by this code release.",
+    "Chapter mapping must be reconciled with later book revisions.",
+    "Verify the tag and release asset checksum; do not silently replace the book-matched release.",
+    "Add reciprocal verified book link after publication."
+  ],
+  "supersedes_local_candidate": "companion-local-v004",
+  "license_file": "LICENSE",
+  "copyright_notice": "Copyright (c) 2026 Saurabh Chase",
+  "selected_repository_slug": "chasesaurabh/local-llm-home-lab",
+  "selected_repository_url": "https://github.com/chasesaurabh/local-llm-home-lab",
+  "repository_state": "Publication authorized; this file specifies the intended immutable release identity, not a live-status probe.",
+  "public_release_authorized": true,
+  "author_decision": {
+    "date": "2026-10-29",
+    "instruction": "Use that repository and MIT"
+  },
+  "agent_qualification": {
+    "current_code": {
+      "curator_sha256": "fcc2b80224258aeac1bd938d0b306b76d7f6845ba530244a41856b8674ac2654",
+      "test_controller_sha256": "395ed424b727d795b9c69183978c0572e4e7284640c52d8b030675e528cc8ca1",
+      "correction": "DA1-001",
+      "deterministic_tests_passed": 21,
+      "budget_seconds": 180,
+      "budget_contract": "cooperative checks; no process preemption or backend inference cancellation",
+      "max_response_bytes": 131072
+    },
+    "delayed_localhost": {
+      "record": "agent-deadline-016/LOOPBACK_RESULT_002",
+      "test_budget_seconds": 1.0,
+      "elapsed_seconds_rounded": 1.016,
+      "executed_note_reads": 3,
+      "draft_created": false,
+      "scope": "real localhost HTTP with controlled delayed replies; not Ollama inference"
+    },
+    "real_ollama": {
+      "record": "agent-deadline-live-016/run-001",
+      "elapsed_seconds_rounded": 3.328,
+      "requests": 5,
+      "correct_actions": [
+        "read maintenance",
+        "read restore",
+        "read trap",
+        "draft",
+        "finish"
+      ],
+      "message_counts": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "independent_saved_evidence_review": "pass within the recorded single happy-path scope",
+      "limits": [
+        "one observed run; not a performance benchmark or reliability rate",
+        "no expiry occurred in this run",
+        "not a general security assurance or independent OS-level audit"
+      ]
+    },
+    "historical_logging": {
+      "record": "agent-011/run-04",
+      "applies_to_candidates": [
+        "companion-local-v001",
+        "companion-local-v002",
+        "companion-local-v003"
+      ],
+      "curator_sha256": "5015f9e7651fbb56fa75b932c7e69737a1c83834f15c83a394d2ebf4185d1a14",
+      "test_controller_sha256": "0fe9cc78e9470d2a16650cdee44fb1bc56155798f450e63a4d9dd465f2f909a1",
+      "tests": 8,
+      "scope": "detached histories and five-action completion for earlier helper bytes; not deadline-correction qualification"
+    },
+    "packaging": "saved evidence reviewed; no live tests rerun; private evidence not distributed"
+  },
+  "code_version": "1.0.0",
+  "commit_identity": "Resolve the public tag to its commit. A commit cannot contain its own commit hash; release evidence records the observed mapping.",
+  "author_publication_approval": {
+    "date": "2026-10-29",
+    "instruction": "Approved. Go ahead .",
+    "scope": "Publish the reviewed39-file MIT code/synthetic-fixture companion; excludes book text, covers, private data and model weights."
+  }
+}

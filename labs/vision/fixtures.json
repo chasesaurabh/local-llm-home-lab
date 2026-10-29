@@ -1,0 +1,16 @@
+[
+  {
+    "file": "clear.png",
+    "sha256": "88b8b9cc090e40600f6a628d670403538efd46a949e1b01dcf22c86f154f1bec",
+    "bytes": 4125,
+    "width": 640,
+    "height": 360
+  },
+  {
+    "file": "partial.png",
+    "sha256": "3d9b9987ff5a2eb9f2642c0dbcd272a6fb46d60cb34d782cc0b6572e27d4dd27",
+    "bytes": 3778,
+    "width": 640,
+    "height": 360
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "baseline": ["corpus/maintenance-v2.md", "corpus/restore-check.md", "corpus/device-notes.md", "corpus/garden-club.md", "corpus/ups-note-injection.md"],
+  "conflict": ["corpus/maintenance-v1.md", "corpus/maintenance-v2.md", "corpus/restore-check.md", "corpus/device-notes.md", "corpus/garden-club.md", "corpus/ups-note-injection.md"],
+  "after-update": ["changes/maintenance-v3.md", "corpus/restore-check.md", "corpus/device-notes.md", "corpus/garden-club.md", "corpus/ups-note-injection.md"],
+  "after-delete": ["corpus/restore-check.md", "corpus/device-notes.md", "corpus/garden-club.md", "corpus/ups-note-injection.md"]
+}

@@ -1,0 +1,11 @@
+# Dependency and fixture provenance
+
+No third-party code, binary, weights or external artwork is bundled. Python helpers use its standard library; PowerShell helpers use Windows/.NET commands and invoke separately installed Docker or NVIDIA tooling as described in README.md. There are no pip, npm or vendored library dependencies to lock in this candidate. This statement is an inventory, not a vulnerability assessment of installed software.
+
+Externally acquired components must retain their own applicable terms. Check the exact versions/distributions used: Python 3.12.14; Ollama 0.40.12; Docker Desktop 4.91.0 / Engine 29.8.0; Open WebUI 0.12.4 pinned image; llama.cpp b11960 CPU binaries; the named Qwen artifacts; and the locally installed NVIDIA driver/tooling. Compatibility evidence does not grant redistribution rights. The package does not redistribute any of these components or make a blanket licensing claim about them.
+
+The vision PNGs are deterministic outputs of `labs/vision/vision_lab.py`, using its own small bitmap glyph definitions and geometric shapes. `fixtures.json` records their identities. They contain no photograph, outside font or book illustration. RAG, agent and shared-access note files are synthetic exercise text created for these labs, including explicitly adversarial paragraphs. The llama.cpp JSON contains only a synthetic maintenance-note question. None is a real operational policy or private document.
+
+Current documentation entry points checked during candidate preparation on October 29, 2026 UTC: [Python on Windows](https://docs.python.org/3/using/windows.html), [Ollama chat API](https://docs.ollama.com/api/chat), [Open WebUI setup](https://docs.openwebui.com/getting-started/quick-start/). The exact historical llama.cpp download/model identities are listed in `labs/llamacpp/README.md`, based on retained executed verification. Current upstream documentation can change and does not replace the candidate's observed version/digest record.
+
+The original code, synthetic fixtures and package documentation are licensed under MIT; see LICENSE and LICENSE-NOTICE.md. This does not change the license of any separately acquired component listed above.
