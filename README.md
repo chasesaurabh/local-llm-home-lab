@@ -1,6 +1,6 @@
 # The Local LLM Home Lab — code companion
 
-Code and synthetic fixtures for the second edition of *The Local LLM Home Lab*. The code release is **v1.0.0**, tagged **book-edition-02-v1.0.0**; code versions and book edition numbers are separate. The book is still in pre-publication review. Its verified public book link will be added after publication.
+Code and synthetic fixtures for the second edition of *The Local LLM Home Lab*. The code release is **v1.0.0**, tagged **book-edition-02-v1.0.0**; code versions and book edition numbers are separate. The second edition is available on Amazon: [Kindle](https://www.amazon.com/dp/B0HPRPRCTL) and [paperback](https://www.amazon.com/dp/B0HPRFZVQW).
 
 Repository: https://github.com/chasesaurabh/local-llm-home-lab
 
